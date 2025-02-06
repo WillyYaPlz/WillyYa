@@ -4,7 +4,7 @@ const gif = qs(".gif");
 const [yesBtn, noBtn] = [".yes-btn", ".no-btn"].map(qs);
 
 const handleYesClick = () => {
-  question.innerHTML = "Yeahhhhhhhhhhh! See you tusday at 11!!";
+  question.innerHTML = "Yeahhhhhhhhhhh! See you at feb 14th!!";
   gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 
   // Remove the 'mouseover' event listener from noBtn
@@ -15,7 +15,10 @@ const handleYesClick = () => {
 
   // Define predefined romantic date ideas
   const dateIdeas = [
-    "I'm going to beat you in DBSZ <3",
+    "We will play it takes two <3",
+    "We will eat pizza and watch movies🍕",
+    "I will beat you up 😇",
+    "بشيلك بعد",
     
 
     // Add more date ideas as needed
